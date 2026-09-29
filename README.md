@@ -20,7 +20,7 @@ Porque el acceso a la base es responsabilidad exclusiva de la capa de persistenc
 
 ## Por qué "pendiente" es una regla de negocio
 
-(explicalo con tus palabras)
+es una decisión del sistema sobre cómo nace un ticket, no algo que el usuario elige. Si estuviera en el formulario, cualquiera podría manipular el request y crear un ticket "resuelto". Al estar en el constructor de Ticket, la regla se cumple siempre, sin importar desde dónde se cree el ticket
 
 ## Cómo ejecutarlo
 
